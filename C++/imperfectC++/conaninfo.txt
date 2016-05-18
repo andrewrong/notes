@@ -1,0 +1,59 @@
+[settings]
+    arch=x86_64
+    build_type=Release
+    compiler=apple-clang
+    compiler.libcxx=libc++
+    compiler.version=7.0
+    os=Macos
+
+[requires]
+    folly/master20160315.Y.Z
+
+[options]
+
+
+[full_settings]
+    arch=x86_64
+    build_type=Release
+    compiler=apple-clang
+    compiler.libcxx=libc++
+    compiler.version=7.0
+    os=Macos
+
+[full_requires]
+    Boost/1.60.0@mogu/stable:57303a8553367891cc8bbecd5f0f43dce8b68e13
+    Boost/1.60.0@mogu/stable:57303a8553367891cc8bbecd5f0f43dce8b68e13
+    OpenSSL/1.0.2f@mogu/stable:9e7091c8c6226ed91fce62db733eda25e2bcc8eb
+    bzip2/1.0.6@mogu/stable:0107d75243c7b2f87f9eabb7697767673f454e59
+    double-conversion/2.0.1@mogu/stable:3fc37b29729e296b1e8b18f86f484b0d09166c5d
+    folly/master20160315@mogu/stable:269bec2b6b4b2ddd7d2c55fd5e5ca6286466d095
+    gflags/2.1.2@mogu/stable:3fc37b29729e296b1e8b18f86f484b0d09166c5d
+    glog/0.3.4@mogu/stable:ca83bff36c3fdd9cecc08cbe8f45486368a20e51
+    libevent/2.0.22@mogu/stable:3fc37b29729e296b1e8b18f86f484b0d09166c5d
+    zlib/1.2.8@mogu/stable:3fc37b29729e296b1e8b18f86f484b0d09166c5d
+
+[full_options]
+    Boost:shared=False
+    OpenSSL:386=False
+    OpenSSL:no_asm=False
+    OpenSSL:no_bf=False
+    OpenSSL:no_cast=False
+    OpenSSL:no_des=False
+    OpenSSL:no_dh=False
+    OpenSSL:no_dsa=False
+    OpenSSL:no_hmac=False
+    OpenSSL:no_md2=False
+    OpenSSL:no_md5=False
+    OpenSSL:no_mdc2=False
+    OpenSSL:no_rc2=False
+    OpenSSL:no_rc4=False
+    OpenSSL:no_rc5=False
+    OpenSSL:no_rsa=False
+    OpenSSL:no_sha=False
+    OpenSSL:no_sse2=False
+    OpenSSL:no_threads=False
+    OpenSSL:no_zlib=False
+    OpenSSL:shared=False
+    OpenSSL:zlib_dynamic=False
+    bzip2:shared=False
+    zlib:shared=False

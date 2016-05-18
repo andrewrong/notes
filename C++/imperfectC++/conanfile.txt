@@ -1,0 +1,6 @@
+[requires]
+folly/master20160315@mogu/stable
+Boost/1.60.0@mogu/stable
+
+[generators]
+cmake
