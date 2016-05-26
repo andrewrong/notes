@@ -3,8 +3,8 @@
 //
 
 #include <iostream>
-void testSameSize();
+#include "src/chapter1/constraints.h"
 int main(){
-    testSameSize();
+    CONSTRAINT_MUST_BE_POD(int);
 }
 

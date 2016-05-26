@@ -7,5 +7,5 @@
 using namespace std;
 
 void testSameSize(){
-    must_be_same_size<int, double> test;
+    must_be_same_size<int, int> test;
 }
