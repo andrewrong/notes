@@ -17,4 +17,3 @@ if (lockState < 0 || lockState >= State::numStates) {
     }
 ```
 
-
